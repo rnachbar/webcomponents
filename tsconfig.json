@@ -17,7 +17,27 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ratify": [
+        "dist/ratify"
+      ],
+      "ratify/*": [
+        "dist/ratify/*"
+      ],
+      "nachbar-intro": [
+        "dist/nachbar-intro"
+      ],
+      "nachbar-intro/*": [
+        "dist/nachbar-intro/*"
+      ],
+      "nachbar-example": [
+        "dist/nachbar-example"
+      ],
+      "nachbar-example/*": [
+        "dist/nachbar-example/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
