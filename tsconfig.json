@@ -19,12 +19,6 @@
       "dom"
     ],
     "paths": {
-      "ratify": [
-        "dist/ratify"
-      ],
-      "ratify/*": [
-        "dist/ratify/*"
-      ],
       "nachbar-intro": [
         "dist/nachbar-intro"
       ],
