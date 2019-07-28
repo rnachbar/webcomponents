@@ -5,6 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## First Run
 
 Execute o comando `npm install @angular/cli` para instalar o angular globalmente em sua máquina.  
+
 Dentro da pasta raiz do projeto, execute o comando `npm install` para baixar todas as dependências necessárias.  
 
 ## Criando nova biblioteca
