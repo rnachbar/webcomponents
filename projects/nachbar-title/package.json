@@ -1,0 +1,15 @@
+{
+  "name": "nachbar-title",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^8.1.2",
+    "@angular/core": "^8.1.2"
+  },
+  "description": "This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.",
+  "main": "karma.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "'Raphael' <'raphael@youremail.com'>",
+  "license": "MIT"
+}

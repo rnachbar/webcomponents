@@ -30,6 +30,18 @@
       ],
       "nachbar-example/*": [
         "dist/nachbar-example/*"
+      ],
+      "nachbar-title": [
+        "dist/nachbar-title"
+      ],
+      "nachbar-title/*": [
+        "dist/nachbar-title/*"
+      ],
+      "ratify2": [
+        "dist/ratify2"
+      ],
+      "ratify2/*": [
+        "dist/ratify2/*"
       ]
     }
   },

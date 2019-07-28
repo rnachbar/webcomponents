@@ -18,4 +18,14 @@
   </li>
 </ul>
 
+<div style="text-align:center">
+  <h1>
+    Lets rate it!
+  </h1>
+  <lib-ratify [grade]="grade" [maxRating]="maxRating" [showRatingCounter]="showRatingCounter" (triggerRatingSelection)="selectedRating($event)"></lib-ratify>
+  <h1 *ngIf="myRating">
+    Rated to {{myRating}}
+  </h1>
+</div>
+
 <router-outlet></router-outlet>

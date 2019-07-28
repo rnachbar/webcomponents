@@ -10,9 +10,9 @@ Dentro da pasta raiz do projeto, execute o comando `npm install` para baixar tod
 
 ## Criando nova biblioteca
 
-Execute o comando `ng generate library nome-da-biblioteca --prefix=nachbar` para criar a biblioteca. O comando `prefix` adiciona o valor informado antes do nome da biblioteca (nachbar-nome-da-biblioteca).  
+Execute o comando `ng generate library nome-da-bibliotecas` para criar a biblioteca.  
 
-Após isso a sua biblioteca será criada em /projects/nachbar-nome-da-biblioteca.  
+Após isso a sua biblioteca será criada em /projects/nome-da-biblioteca.  
 
 ## Publicando uma biblioteca JavaScript no NPM
 
@@ -22,9 +22,9 @@ Depois de criar e testar nossa biblioteca TypeScript / JavaScript, podemos publi
 
 Após informa os dados pedidos, execute o seguinte comando gerar o bild da biblioteca:  
 
-* `ng build nachbar-nome-da-biblioteca`
+* `ng build nome-da-biblioteca`
 
-Após isso publique a biblioteca no npm indo até a pasta que foi gerada pelo build `dist/nachbar-nome-da-biblioteca` e execute os comandos:  
+Após isso publique a biblioteca no npm indo até a pasta que foi gerada pelo build `dist/nome-da-biblioteca` e execute os comandos:  
 
 * `npm login`
 * `npm publish`

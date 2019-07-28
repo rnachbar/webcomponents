@@ -220,6 +220,76 @@
           }
         }
       }
+    },
+    "nachbar-title": {
+      "projectType": "library",
+      "root": "projects/nachbar-title",
+      "sourceRoot": "projects/nachbar-title/src",
+      "prefix": "nachbar",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/nachbar-title/tsconfig.lib.json",
+            "project": "projects/nachbar-title/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/nachbar-title/src/test.ts",
+            "tsConfig": "projects/nachbar-title/tsconfig.spec.json",
+            "karmaConfig": "projects/nachbar-title/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/nachbar-title/tsconfig.lib.json",
+              "projects/nachbar-title/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "ratify2": {
+      "projectType": "library",
+      "root": "projects/ratify2",
+      "sourceRoot": "projects/ratify2/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ratify2/tsconfig.lib.json",
+            "project": "projects/ratify2/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ratify2/src/test.ts",
+            "tsConfig": "projects/ratify2/tsconfig.spec.json",
+            "karmaConfig": "projects/ratify2/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ratify2/tsconfig.lib.json",
+              "projects/ratify2/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "angular-component-library"
 }
