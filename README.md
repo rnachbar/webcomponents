@@ -22,7 +22,7 @@ Após informa os dados pedidos, execute o seguinte comando gerar o bild da bibli
 
 * `ng build nachbar-nome-da-biblioteca`
 
-Após isso, publique a biblioteca no npm:  
+Após isso, publique a biblioteca no npm, vá até a pasta raiz da biblioteca e execute os comandos:  
 
 * `npm login`
 * `npm publish`
